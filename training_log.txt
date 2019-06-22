@@ -1,0 +1,7 @@
+333
+2
+1
+Traceback (most recent call last):
+  File "model_train_svm.py", line 472, in <module>
+    label_list = label_dict_f.read().splitlines()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xbf in position 2: illegal multibyte sequence
